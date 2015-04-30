@@ -3,4 +3,4 @@ Hadoop implementation Alignment Free Algorithms for biological sequences compari
 
 made with Steven Rosario Sirchia, Luigi Lomasto, Francesco Gaetano.
 
-1 year master
+1st year master
