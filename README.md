@@ -1,5 +1,5 @@
 # AlignmentFree-Hadoop
-Hadoop implementatio Alignment Free Algorithms for biological sequences comparison using different distances
+Hadoop implementation Alignment Free Algorithms for biological sequences comparison using different distances
 
 made with Steven Rosario Sirchia, Luigi Lomasto, Francesco Gaetano.
 
