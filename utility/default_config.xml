@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Constant>
+
+	<!-- INPUT -->
+	
+	<IS_PROTEIN>
+        false
+    </IS_PROTEIN>
+    
+    <CLASS_NAMES>
+    	CV.distance.Euclidean
+    </CLASS_NAMES>
+    
+	<CHECK_INPUT>
+		true
+	</CHECK_INPUT>
+	
+	<COPY_INPUT_ON_HDFS>
+		false
+	</COPY_INPUT_ON_HDFS>
+	
+	<GENERATE_INPUT>
+		false
+	</GENERATE_INPUT>
+	
+	<GENERATE_NUM_SEQ>
+		0
+	</GENERATE_NUM_SEQ>
+	
+	<GENERATE_AVG_LENGTH>
+		0
+	</GENERATE_AVG_LENGTH>
+	
+	<GENERATE_SD_LENGTH>
+		0
+	</GENERATE_SD_LENGTH>
+    
+    
+    
+    <!-- SPLIT -->
+    
+    <SPLIT_TYPE>
+		2
+	</SPLIT_TYPE>
+	
+	
+	
+    <!-- REDUCERS -->
+    
+    <SET_REDUCE>
+		true
+	</SET_REDUCE>
+
+	<NUM_REDUCER_JOB_1>
+		2
+	</NUM_REDUCER_JOB_1>
+	
+	<NUM_REDUCER_JOB_2>
+		2
+	</NUM_REDUCER_JOB_2>
+    
+    
+    
+    <!-- PRINT -->
+    
+    <PRINT_MATRIX_SEQ>
+		true
+	</PRINT_MATRIX_SEQ>
+	
+	<PRINT_AVG_DISTANCES>
+	    false
+	</PRINT_AVG_DISTANCES>
+
+	<HADOOP_PRINT_DISTANCES>
+		true
+	</HADOOP_PRINT_DISTANCES>
+
+	<SEQUENTIAL_PRINT_DISTANCES>
+		true
+	</SEQUENTIAL_PRINT_DISTANCES>
+	
+	
+    
+	<!-- DEBUG -->
+	
+	<DEBUG_MODE>
+		false
+	</DEBUG_MODE>
+	
+	<SPLIT2_DEBUG_MODE>
+		false
+	</SPLIT2_DEBUG_MODE>
+	
+	
+	
+	<!-- PARTIAL PATHS -->
+	<PROBABILITIES_PATH>
+	    /Probabilities/Probabilities.txt
+	</PROBABILITIES_PATH>
+	
+	
+	
+	<!-- LOCAL PATHS -->
+	
+	<LOCAL_PATH_PREFIX>
+		/Scrivania/TEAM4
+	</LOCAL_PATH_PREFIX>
+	
+	<LOCAL_INPUT_FILES>
+		/INPUT/Split/
+	</LOCAL_INPUT_FILES>
+	
+	<LOCAL_PATTERNS_FILE>
+		/Pattern/Patterns.txt
+	</LOCAL_PATTERNS_FILE>
+	
+	<SEQUENTIAL_OUTPUT_DIR>
+		/OutputSequential/
+	</SEQUENTIAL_OUTPUT_DIR>
+	
+	<HADOOP_LOCAL_OUTPUT_DIR>
+		/OutputHadoop/
+	</HADOOP_LOCAL_OUTPUT_DIR>
+	
+	
+	<!-- HADOOP PATHS -->
+	
+	<HDFS_HOME_DIR>
+		/user/user/HAFS/
+	</HDFS_HOME_DIR>
+	
+	
+	
+	
+	<!-- OTHER SETTINGS -->
+	
+	<BUFFER_CAPACITY_SEQ>
+		1048576
+	</BUFFER_CAPACITY_SEQ>
+
+	<MERGE_DISTANCES_ON_HDFS>
+		false
+	</MERGE_DISTANCES_ON_HDFS>
+
+	<MERGE_DISTANCE_ON_LOCAL_FS>
+		true
+	</MERGE_DISTANCE_ON_LOCAL_FS>	
+	
+</Constant>
